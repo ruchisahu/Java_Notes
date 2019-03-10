@@ -29,5 +29,14 @@ class arrayli
 		// Printing elements one by one 
 		for (int i=0; i<arrli.size(); i++) 
 			System.out.print(arrli.get(i)+" "); 
+		
+		// element at index 2 
+        int element = arrli.get(2); 
+		// 2 exits or not 
+        boolean ans = arrli.contains(2);
+		//foreach
+		arrli.forEach((n) -> System.out.println(n)); 
+		//isempty
+		 ans = arr.isEmpty(); 
 	} 
 } 
